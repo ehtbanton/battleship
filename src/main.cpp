@@ -9,10 +9,13 @@
 #include <unordered_map>
 #include <ctime>
 
-using std::cout, std::cin, std::string, std::endl;
+#include "Output.h"  // Include the Output header
 
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	Output runtime_out;
+	runtime_out.print_title();
+	cin.get();
 }
