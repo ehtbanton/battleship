@@ -130,6 +130,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="SELF-CONTAINED SCRIPTS\battleship_deep_q_learning.cpp" />
+    <ClCompile Include="SELF-CONTAINED SCRIPTS\battleship_single_player.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\output.cpp" />
     <ClCompile Include="src\ship.cpp" />

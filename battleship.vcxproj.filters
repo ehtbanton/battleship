@@ -24,6 +24,12 @@
     <ClCompile Include="src\ship.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="SELF-CONTAINED SCRIPTS\battleship_single_player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SELF-CONTAINED SCRIPTS\battleship_deep_q_learning.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\output.h">
