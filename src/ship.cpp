@@ -1,3 +1,4 @@
+//Ship.cpp
 #include "Ship.h"
 
 Ship::Ship(int size, int boarddata[BOARD_SIZE][BOARD_SIZE]) {

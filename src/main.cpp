@@ -1,8 +1,8 @@
-#include "Game.h"
+#include "AutomatedGame.h"
 #include <iostream>
 
 int main() {
-    Game battleship;
-    battleship.run();
+    AutomatedGame battleship;
+    battleship.run_auto();
     return 0;
 }

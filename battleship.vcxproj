@@ -131,16 +131,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\AutomatedGame.cpp" />
     <ClCompile Include="src\Board.cpp" />
+    <ClCompile Include="src\ComputerPlayer.cpp" />
     <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\GameAI.cpp" />
     <ClCompile Include="src\GameMessages.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Ship.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\AutomatedGame.h" />
     <ClInclude Include="src\Board.h" />
+    <ClInclude Include="src\ComputerPlayer.h" />
     <ClInclude Include="src\Constants.h" />
     <ClInclude Include="src\Game.h" />
+    <ClInclude Include="src\GameAI.h" />
     <ClInclude Include="src\GameMessages.h" />
     <ClInclude Include="src\Ship.h" />
   </ItemGroup>

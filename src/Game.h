@@ -1,3 +1,4 @@
+//Game.h
 #pragma once
 #ifndef GAME_H
 #define GAME_H
@@ -9,7 +10,7 @@
 
 // Main game class that manages the battleship game
 class Game {
-private:
+protected:
     int boarddata[BOARD_SIZE][BOARD_SIZE];  // Game board state
     Ship* ships;                            // Array of ships in the game
     int numShips;                           // Total number of ships
@@ -46,6 +47,7 @@ public:
     // 2 = Miss
     // 3 = Hit
     int getBoardState(int row, int col) const;
+
 };
 
 #endif // GAME_H
